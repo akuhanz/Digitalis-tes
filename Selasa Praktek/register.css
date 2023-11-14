@@ -1,0 +1,179 @@
+*, body, html{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    height: 80px;
+}
+
+.navbar ul{
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+}
+
+.navbar ul li{
+    margin: 30px 20px; 
+}
+
+.navbar a{
+    text-decoration: none;
+    color: #000;
+    font-size: 13px;
+    font-family: sans-serif;
+}
+
+.banner{
+    background-color: blue;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner h1{
+    color: #fff;
+    font-family: sans-serif;
+    font-weight: 100;
+    font-size: 20px;
+}
+
+.kolom{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.kolom-pertama{
+    width: 70%;
+    height: auto;
+    padding: 20px;
+    margin-left: 20px;
+}
+
+.baris-pertama{
+    display: flex;
+    justify-content: center;
+}
+
+.baris-pertama .input{
+    margin: 40px 40px;
+}
+
+.baris-pertama .input label{
+    font-size: 20px;
+    font-weight: 100;
+    font-family: sans-serif;
+}
+
+.baris-pertama .input input{
+    margin-top: 20px;
+    width: 170px;
+    height: 35px;
+    background-color: #ECECEC;
+    border: none;
+    border-radius: 5px;
+}
+
+.baris-kedua{
+    margin-top: 0;
+    margin-left: 180px;
+}
+
+.baris-kedua label{
+    font-size: 20px;
+    font-weight: 100;
+    font-family: sans-serif;
+}
+
+.baris-kedua input{
+    margin-top: 20px;
+    width: 80%;
+    height: 35px;
+    background-color: #ECECEC;
+    border: none;
+    border-radius: 5px;
+}
+
+.baris-ketiga{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 180px;
+}
+
+.baris-ketiga .input{
+    margin-right: 50px;
+}
+
+.baris-ketiga .input label{
+    font-size: 20px;
+    font-weight: 100;
+    font-family: sans-serif;
+}
+
+.baris-ketiga .input input{
+    margin-top: 20px;
+    width: 310px;
+    height: 35px;
+    background-color: #ECECEC;
+    border: none;
+    border-radius: 5px;
+}
+
+.baris-keempat{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 180px;
+}
+
+.baris-keempat .button{
+    margin-top: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+}
+
+.baris-keempat .button button{
+    width: 200px;
+    height: 35px;
+    border: none;
+    border-radius: 5px;
+}
+
+
+.kolom-kedua{
+    width: 30%;
+    height: auto;
+    background-color: #ECECEC;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.kolom-kedua ul{
+    list-style: none;
+}
+
+.kolom-kedua ul li{
+    margin-top: 40px;
+}
+
+.kolom-kedua ul li a{
+    text-decoration: none;
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: 100;
+    color: #000;
+}
+
+.footer{
+    height: 60px;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer p{
+    font-size: 15px;
+    color: #fff;
+}
